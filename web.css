@@ -1,0 +1,183 @@
+.imag
+{
+	 height: 250px;
+  width: 50%;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 45%;
+  border-top-left-radius: 25%;
+  top: 0px;
+  left: 50px;
+  clear: both;
+}
+.colb
+{
+	border:5px solid;
+	border-radius: 10px;
+}
+.r1
+{
+	padding:;
+}
+.imag2
+{
+	
+	 height: 230px;
+  width: 230px;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 45%;
+  border-top-left-radius: 25%;
+  top: 0px;
+  left: 50px;
+  position: relative;
+  clear: both;
+  z-index: 1;
+}
+.border1{
+	height: 280px;
+  width: 290px;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 45%;
+  border-top-left-radius: 25%;
+  position: relative;
+  top: -150px;
+  left: 0%;
+  clear: both;
+  z-index: -1;
+  border: 3px solid #f7096e;
+}
+.sec3
+{
+	padding-top: 86px;
+}
+.figure{
+  width:200px;
+  padding: 10px;
+  height: 300px;
+  margin: 3%;
+  border: 1px solid gray;
+  border-radius: 10%;
+}
+#pop
+{
+	margin-top: 50px;
+	width: 100%;
+	height:189px;
+	background-color: red;
+	background-image: linear-gradient(to right,red,deeppink);
+}
+#imag6
+{
+	background-image: url("/home/cedcoss/Desktop/Images/off7.jpeg");
+	opacity: .9;
+	height: 72%;
+	background-size:cover;
+}
+.foot
+{
+	display: inline;
+}
+.border2
+{
+	height: 200px;
+  width: 250px;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 45%;
+  border-top-left-radius: 25%;
+  position: relative;
+  top: -270px;
+  left: 8%;
+  clear: both;
+  z-index: 1;
+  border: 3px solid #f7096e;
+}
+.row
+{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+#panel{
+  padding: 50px;
+  display: none;
+}
+.slider
+{
+  width:100%;
+  height: auto;
+  overflow: hidden;
+}
+.slides
+{
+  list-style: none;
+  width:8000px;
+  padding: 0px;
+}
+.slide
+{
+  float:left;
+  width:1340px;
+}
+.im
+{
+  height: 600px;
+  width: 1340px;
+
+}
+#sl
+{
+  height: auto;
+  width: 100%;
+}
+#ffa
+{
+  position: absolute;
+  padding-top: 20%;
+  color: white;
+  padding-bottom: 20%;
+  padding-left: 1%;
+  opacity: .7;
+
+}
+#ffa2
+{
+  position: absolute;
+  color: white;
+  float: right;
+  padding-left: 96%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  opacity: .7;
+}
+#c2
+{
+  position: absolute;
+  padding-top: 42%;
+  padding-left: 50%;
+  color: white;
+}
+#c1
+{
+  position: absolute;
+  padding-top: 42%;
+  padding-left: 47%;
+  color: red;
+}
+
+#c3
+{
+  position: absolute;
+  color: white;
+  padding-top: 42%;
+  padding-left: 52.5%;
+}
+#c4
+{
+  position: absolute;
+  color: white;
+  padding-top: 42%;
+  padding-left: 55%;
+}
+
