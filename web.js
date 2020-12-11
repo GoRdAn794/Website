@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $(".navbar").click(function(){
     $("#panel").slideToggle("slow");
-    $('#ffa2').mouseover(function(){
+    $('#rightIcon').mouseover(function(){
     	var interval;
-    	console.log('fldnvfdv');
+    	// console.log('fldnvfdv');
     	clearInterval(interval);
     })
   });
@@ -13,10 +13,11 @@ $(document).ready(function(){
   	$("#c1").css("color","red");
   	interval = setInterval(function(){
   		b.animate({
-  			marginLeft:'-=98.1vw'
+  			marginLeft:'-=1350px'
   		},2000,function(){
   			$("#c1").css("color","red");
   			c++;
+        // console.log(c);
   			if(c==1)
   			{
   				$("#c2").css("color","white");
@@ -44,26 +45,28 @@ $(document).ready(function(){
   				$("#c2").css("color","white");
   				$("#c4").css("color","red");
   				$("#c3").css("color","white");
+          b.css('marginLeft','0px');
+          c=1;
   			}
-  			else if(c===a)
-  			{
-  				$("#c1").css("color","red");
-  				$("#c2").css("color","white");
-  				$("#c4").css("color","white");
-  				$("#c3").css("color","white");
-  				b.css('marginLeft','0px');
-  				c=1;
-  			}
+  			// else if(c===5)
+  			// {
+  			// 	$("#c1").css("color","red");
+  			// 	$("#c2").css("color","white");
+  			// 	$("#c4").css("color","white");
+  			// 	$("#c3").css("color","white");
+
+  			// }
   			// console.log(c);
   			});
   	},3000);
-  	$("#ffa1").on('click',function(){
+  	$("#leftIcon").on('click',function(){
   		$('.slides').css('float','right')
 		$('.slides').animate({
-  			marginRight:'-=98.1vw'
+  			marginRight:'-=1350px'
   		},800,function(){
 
   			c++;
+        console.log(c);
   			if(c==1)
   			{
   				$("#c2").css("color","white");
@@ -91,70 +94,64 @@ $(document).ready(function(){
   				$("#c2").css("color","white");
   				$("#c4").css("color","white");
   				$("#c3").css("color","white");
+          b.css('marginLeft','0px');
+          c=1;
   			}
-  			if(c===a)
-  			{
-  				$("#c1").css("color","red");
-  				$("#c2").css("color","white");
-  				$("#c4").css("color","white");
-  				$("#c3").css("color","white");
-  				b.css('marginLeft','0px');
-  				c=1;
-  			}
-
 
   		});
 
 	});
   	// console.log(a);
-  	$("#ffa2").on('click',function(){
+  	$("#rightIcon").on('click',function(){
   		$('.slides').css('float','left')
-		$('.slides').animate({
+		  $('.slides').animate({
   			marginLeft:'-=98.1vw'
   		},800,function(){
-  			c++;
-  			if(c==1)
-  			{
-  				$("#c2").css("color","white");
-  				$("#c1").css("color","red");
-  				$("#c3").css("color","white");
-  				$("#c4").css("color","white");
-  			}
-  			else if(c==2)
-  			{
-  				$("#c2").css("color","red");
-  				$("#c1").css("color","white");
-  				$("#c3").css("color","white");
-  				$("#c4").css("color","white");
-  			}
-  			else if(c==3)
-  			{
-  				$("#c1").css("color","white");
-  				$("#c2").css("color","white");
-  				$("#c3").css("color","red");
-  				$("#c4").css("color","white");
-  			}
-  			else if(c==4)
-  			{
-  				$("#c1").css("color","white");
-  				$("#c2").css("color","white");
-  				$("#c4").css("color","red");
-  				$("#c3").css("color","white");
-  			}
-  			if(c===a)
-  			{
-  				$("#c1").css("color","red");
-  				$("#c2").css("color","white");
-  				$("#c4").css("color","white");
-  				$("#c3").css("color","white");
-  				b.css('marginLeft','0px');
-  				c=1;
-  			}
-  			// console.log(c);
-  			});
+        c++;
+        // console.log(c);
+        if(c==1)
+        {
+          $("#c2").css("color","white");
+          $("#c1").css("color","white");
+          $("#c3").css("color","white");
+          $("#c4").css("color","red");
+        }
+        else if(c==2)
+        {
+          $("#c2").css("color","white");
+          $("#c1").css("color","white");
+          $("#c3").css("color","red");
+          $("#c4").css("color","white");
+        }
+        else if(c==3)
+        {
+          $("#c1").css("color","white");
+          $("#c2").css("color","red");
+          $("#c3").css("color","white");
+          $("#c4").css("color","white");
+        }
+        else if(c==4)
+        {
+          $("#c1").css("color","red");
+          $("#c2").css("color","white");
+          $("#c4").css("color","white");
+          $("#c3").css("color","white");
+          b.css('marginLeft','0px');
+          c=1;
+        }
+
+
+
+
+
+
+      });
 	});
+
+
+
 	$("#c1").on('click',function(){
-		$('.slides').css('marginLeft','0vw');
+		$('.slides').css('marginLeft','0px');
 		$("#c1").css("color","red");
   				$("#c2").css("color","white");
   				$("#c4").css("color","white");
@@ -162,7 +159,7 @@ $(document).ready(function(){
 
 	});
 	$("#c2").on('click',function(){
-		$('.slides').css('margin-left','-98.1vw');
+		$('.slides').css('margin-left','-1350px');
 		$("#c1").css("color","white");
   				$("#c2").css("color","red");
   				$("#c4").css("color","white");
@@ -170,7 +167,7 @@ $(document).ready(function(){
 
 	});
 	$("#c3").on('click',function(){
-		$('.slides').css('margin-left','-196.20vw');
+		$('.slides').css('margin-left','-2700px');
 		$("#c1").css("color","white");
   				$("#c2").css("color","white");
   				$("#c4").css("color","white");
@@ -178,11 +175,12 @@ $(document).ready(function(){
 
 	});
 	$("#c4").on('click',function(){
-		$('.slides').css('margin-left','-392.40vw');
+		$('.slides').css('margin-left','-4050px');
 		$("#c1").css("color","white");
   				$("#c2").css("color","white");
   				$("#c4").css("color","red");
   				$("#c3").css("color","white");
+          // b.css('marginLeft','0px')
 
 	})
 
