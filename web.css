@@ -108,15 +108,18 @@
   width:100%;
   height: auto;
   overflow: hidden;
+  z-index: -1;
 }
 .slides
 {
+
   list-style: none;
   width:8000px;
   padding: 0px;
 }
 .slide
 {
+
   float:left;
   width:1340px;
 }
@@ -134,24 +137,17 @@
 #ffa1
 {
   position: absolute;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  color: white;
-  padding-left: 1%;
   opacity: .7;
-
+  top: 45%;
+  float: left;
 }
 #ffa2
 {
   position: absolute;
-  color: white;
-  float: right;
-  padding-left: 96%;
-  padding-top: 20%;
-  padding-bottom: 20%;
   opacity: .7;
+  padding-left: 1300px;
 }
-#c2
+/*#c2
 {
   position: absolute;
   padding-top: 42%;
@@ -179,5 +175,77 @@
   color: white;
   padding-top: 42%;
   padding-left: 55%;
+}*/
+/*@media only screen and (max-width: 1000px) {
+  
+#ffa1
+{
+  position: absolute;
+  padding-top: 28%;
+  padding-bottom: 20%;
+  color: white;
+  padding-left: 1%;
+  opacity: .7;
+
+}
+  #ffa2
+{
+  position: absolute;
+  color: white;
+  float: right;
+  padding-left: 92.5%;
+  padding-top: 28%;
+  padding-bottom: 20%;
+  opacity: .7;
+}
+#c2
+{
+  position: absolute;
+  padding-top: 63%;
+  padding-left: 50%;
+  color: white;
+}
+#c1
+{
+  position: absolute;
+  padding-top: 63%;
+  padding-left: 47%;
+  color: red;
 }
 
+#c3
+{
+  position: absolute;
+  color: white;
+  padding-top: 63%;
+  padding-left: 52.5%;
+}
+#c4
+{
+  position: absolute;
+  color: white;
+  padding-top: 63%;
+  padding-left: 55%;
+}
+}
+*/
+
+
+.dotIcons{
+  position: relative;
+  left: 45%;
+  bottom: 50px;
+  color: white;
+  opacity: .7;
+
+
+}
+
+.lrIcons{
+  position: absolute;
+  top: 50%;
+  color: black;
+  opacity: .6;
+  width: 100%;
+
+}
